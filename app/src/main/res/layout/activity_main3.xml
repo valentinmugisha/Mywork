@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THIS IS LIST OF USERS REGISTERED"
+        android:id="@+id/userpage"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEE THE REGISTERED USERS"
+        android:id="@+id/seeusers"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"/>
+
+</android.support.constraint.ConstraintLayout>
